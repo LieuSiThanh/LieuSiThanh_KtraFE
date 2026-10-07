@@ -1,0 +1,69 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <style type="text/css">
+        #QC{
+            background-color:aquamarine;
+            text-align:center;
+            font-size:16px;
+        }
+        #b {
+            color:darkblue;
+        }
+        #sml{
+            font-size:13px;
+            color:grey
+        }
+    </style>
+    <script language="Javascript">
+        function Tamtinh() {
+            var sl = parseFloat(document.getElementById("sl").value);
+            var dg = 1034550;
+            window.document.getElementById("tt").value = sl * dg;
+        }
+    </script>
+</head>
+<body>
+    <div id="QC">
+        <br />
+        <p>Freeship Đơn từ 45k, Giảm nhiều hơn cùng <b><span id="b">FREESHIP</span> XTRA</b></p>
+        <br />
+    </div>
+    <hr />
+    <p style="font-size:18px"><span id="b">Cam Kết</span>  ☑100% Hàng thật | 💲Hoàn 200% nếu hàng giả | 📦 30 ngày đổi trả | 🚲 Giao nhanh 2h | 💳Giá siêu rẻ | 🏍Freeship mọi đơn</p>
+    <p id="sml">Trang chủ > Đồ chơi - mẹ bé > Dinh dưỡng người lớn > Lon sữa Glucerna 800g/lon - tặng 2 gói dùng thử</p>
+    <p> 👍Top deal  📦 30 ngày đổi trả  ☑chính hãng thương hiệu:Glucerma</p>
+    <h2>Lon sữa Glucerna 800g/lon - tặng 2 gói dùng thử</h2>
+    <img src="~/Content/BT/Gluce.png" />
+    <p>5.0 ⭐⭐⭐⭐⭐(11) | Đã bán 436</p>
+    <p id="sml">Made in Spain</p>
+    <p style="font-size:18px"><b>1.034.550đ</b></p>
+    <p>Hương vị  Vani</p>
+    <br />
+    <form method="post">
+        Số lượng: <input type="text" id="sl" onkeyup="Tamtinh();"/> <br />
+        Tạm tính: <input type="text" id="tt" />
+    </form>
+    <button style="color:red">Mua Ngay</button> <br />
+    <button>Thêm vào giỏ</button> <br />
+    <button>Mua trước trả sau</button> <br />
+    <h3>Thông tin vận chuyển</h3>
+    <p>giao đến Q.1, P.Bến Nghé, Hồ Chí Minh        <span id="b">Đổi</span></p>
+    <hr />
+    <h3><span style="color:red">NOW</span> Giao siêu tốc 2h</h3>
+    <p>Trước 11h hôm nay:<span style="color:greenyellow"> miễn phí </span> </>
+    <hr />
+    <h3>🌅 Giao đúng sáng mai</h3>
+    <p>18-13h, 01/10:<span style="color:greenyellow"> miễn phí </span> </>
+    <hr />
+    <P>🚛 Freeship từ 45k, freeship 25k từ đơn 100k ❕ </P>
+    
+</body>
+</html>
